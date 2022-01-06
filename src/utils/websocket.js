@@ -24,7 +24,7 @@ export default {
      * 初始化ws，并进行配置
      */
     initWebSocket() {
-        const uri = "ws://152.136.230.44:8114/websocket";
+        const uri = "ws://127.0.0.1:8114/websocket";
         window.webSocket = new WebSocket(uri);
         window.webSocket.onopen = this.open;
         window.webSocket.onclose = this.close;

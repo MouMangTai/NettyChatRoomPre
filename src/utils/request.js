@@ -3,7 +3,7 @@ import {ElLoading, ElNotification} from 'element-plus'
 import { reactive,nextTick  } from 'vue'
 
 const request = axios.create({
-    baseURL: "http://localhost:8113",
+    baseURL: "http://127.0.0.1:8113",
     timeout: 20000
 })
 let loadingInstance = null;
